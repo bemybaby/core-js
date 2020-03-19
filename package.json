@@ -53,7 +53,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zloirock/core-js.git"
+    "url": "https://github.com/bemybaby/core-js.git"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --no-ci",

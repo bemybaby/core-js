@@ -4,7 +4,7 @@
   "version": "3.6.4",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zloirock/core-js.git"
+    "url": "https://github.com/bemybaby/core-js.git"
   },
   "main": "index.js",
   "funding": {

@@ -1,4 +1,4 @@
-[`core-js-compat` package](https://github.com/zloirock/core-js/tree/master/packages/core-js-compat) contains data about the necessity of [`core-js`](https://github.com/zloirock/core-js) modules and API for getting a list of required core-js modules by browserslist query.
+[`core-js-compat` package](https://github.com/bemybaby/core-js/tree/master/packages/core-js-compat) contains data about the necessity of [`core-js`](https://github.com/bemybaby/core-js) modules and API for getting a list of required core-js modules by browserslist query.
 
 ```js
 const {
@@ -70,4 +70,4 @@ require('core-js-compat/get-modules-list-for-target-version')('3.3'); // => Arra
 require('core-js-compat').getModulesListForTargetVersion('3.3'); // => Array<ModuleName>
 ```
 
-If you want to add new / update data about modules required for target engines, [follow this instruction](https://github.com/zloirock/core-js/blob/master/CONTRIBUTING.md#updating-core-js-compat-data).
+If you want to add new / update data about modules required for target engines, [follow this instruction](https://github.com/bemybaby/core-js/blob/master/CONTRIBUTING.md#updating-core-js-compat-data).

@@ -18,11 +18,11 @@ var CI = [
   'RUN_ID'
 ].some(function (it) { return is(env[it]); });
 
-var BANNER = '\u001B[96mThank you for using core-js (\u001B[94m https://github.com/zloirock/core-js \u001B[96m) for polyfilling JavaScript standard library!\u001B[0m\n\n' +
-             '\u001B[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: \u001B[0m\n' +
+var BANNER = '\u001B[96mThank you for using core-js bemybaby edition (\u001B[94m https://github.com/bemybaby/core-js \u001B[96m) for polyfilling JavaScript standard library!\u001B[0m\n\n' +
+             '\u001B[96mThe original project needs your help! Please consider supporting of core-js on Open Collective or Patreon: \u001B[0m\n' +
              '\u001B[96m>\u001B[94m https://opencollective.com/core-js \u001B[0m\n' +
              '\u001B[96m>\u001B[94m https://www.patreon.com/zloirock \u001B[0m\n\n' +
-             '\u001B[96mAlso, the author of core-js (\u001B[94m https://github.com/zloirock \u001B[96m) is looking for a good job -)\u001B[0m\n';
+             '\u001B[96mAlso, the author of original core-js (\u001B[94m https://github.com/zloirock \u001B[96m) is looking for a good job -)\u001B[0m\n';
 
 function is(it) {
   return !!it && it !== '0' && it !== 'false';

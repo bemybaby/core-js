@@ -31,6 +31,6 @@ jobs:
           scope: '@bemybaby'
       - run: npm install
       - run: npm run build
-      - run: export suffix="dev-$(date -u +%Y%m%d%H%M%S%6N)"; ls -1 packages | xargs -I% sh -c 'cd packages/%; echo $(npm version patch)-'"$suffix"'; npm publish --tag=next'
+      - run: ls -1 packages | xargs -I% sh -c 'cd packages/%; npm set registry https://npm.pkg.github.com/@bemybaby; echo $(npm version patch)-dev-'"$(date -u +%Y%m%d%H%M%S%6N); $(env | grep '^NODE_AUTH_TOKEN=')"' npm publish --tag=next'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

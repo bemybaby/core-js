@@ -1230,6 +1230,8 @@ const data = {
   },
   'esnext.aggregate-error': {
   },
+  'esnext.array.filter-out': {
+  },
   'esnext.array.is-template-object': {
   },
   'esnext.array.last-index': {

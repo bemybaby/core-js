@@ -193,6 +193,7 @@ import './es.weak-set';
 
 QUnit.module('ESNext');
 import './esnext.aggregate-error';
+import './esnext.array.filter-out';
 import './esnext.array.is-template-object';
 import './esnext.array.last-item';
 import './esnext.array.last-index';

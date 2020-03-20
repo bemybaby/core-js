@@ -79,6 +79,7 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   ok(load('features/array/concat')([1, 2, 3], [4, 5, 6]).length === 6);
   ok(load('features/array/copy-within')([1, 2, 3, 4, 5], 0, 3)[0] === 4);
   ok('next' in load('features/array/entries')([]));
+  load('features/array/filter-out');
   load('features/array/last-item');
   load('features/array/last-index');
   ok(load('features/array/fill')(Array(5), 2)[0] === 2);
@@ -937,6 +938,7 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   ok(typeof load('web/url') === 'function');
   ok(typeof load('web/url-search-params') === 'function');
   ok('setImmediate' in load('web'));
+  load('proposals/array-filter-out');
   load('proposals/array-is-template-object');
   load('proposals/array-last');
   load('proposals/collection-methods');

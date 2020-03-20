@@ -1,3 +1,4 @@
+require('../proposals/array-filter-out');
 require('../proposals/array-last');
 require('../proposals/collection-methods');
 require('../proposals/collection-of-from');

@@ -1091,6 +1091,9 @@ GLOBAL.tests = {
   'esnext.aggregate-error': function () {
     return typeof AggregateError === 'function';
   },
+  'esnext.array.filter-out': function () {
+    return Array.prototype.filterOut;
+  },
   'esnext.array.last-index': function () {
     return [1, 2, 3].lastIndex && Array.prototype[Symbol.unscopables].lastIndex;
   },

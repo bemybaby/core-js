@@ -6,5 +6,5 @@ var store = require('../internals/shared-store');
 })('versions', []).push({
   version: '3.6.4',
   mode: IS_PURE ? 'pure' : 'global',
-  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2020 Acid Chicken (acid-chicken.com), © 2014-2020 Denis Pushkarev (zloirock.ru)'
 });
